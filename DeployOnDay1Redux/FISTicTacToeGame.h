@@ -20,9 +20,11 @@
 -(BOOL)canPlayAtColumn:(NSUInteger)column row:(NSUInteger)row;
 
 -(void)playXAtColumn:(NSUInteger)column row:(NSUInteger)row;
+
 -(void)playOAtColumn:(NSUInteger)column row:(NSUInteger)row;
 
 -(BOOL)isADraw;
+
 -(NSString *)winningPlayer;
 
 @end
