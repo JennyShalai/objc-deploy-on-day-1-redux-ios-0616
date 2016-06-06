@@ -10,7 +10,6 @@
 
 @interface FISTicTacToeGame ()
 
-@property (nonatomic, strong) NSMutableArray *board;
 
 @property (nonatomic, copy) NSString *currentPlayer;
 
